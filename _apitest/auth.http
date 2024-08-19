@@ -1,0 +1,20 @@
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "name" : "Putra",
+    "email": "putra@gmail.com",
+    "password": "putra12345"
+}
+
+### Login User
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email" : "putra@gmail.com",
+    "password": "putra12345"
+}
+
+## GET ENDPOINT
+GET http://localhost:8000/resources
